@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="https://www.gstatic.com/firebasejs/5.5.2/firebase.js"></script>
+  <title>You Work</title>
+</head>
+
+<body>
+  <section id="registro">
+    <div class="container">
+      <div class="row">
+        <div class="col s6">
+          <form method="get">
+            <h2>Bienvenido</h2>
+            <h3>Registre su visita, por favor.</h3>
+            <div>
+              <input id="name" type="text" placeholder="Ingresa tu nombre completo">
+              <input id="dni" type="number" placeholder="Ingresa el número de tu identificación">
+              <input id="celular" type="number" name="celular" placeholder="Celular">
+              <span>Esta oportunidad visita a:</span>
+              <select name="persona" id="visita">
+                <option selected>Seleccione</option>
+                <option value="mandu">Mandú</option>
+                <option value="agencias">Agencias</option>
+              </select>
+              <button id="btn-for" class="btn waves-effect waves-light" type="submit">
+                <a class="btn btn-primary">Registrar</a>
+              </button>
+          </form>
+        </div>
+  </section>
+
+
+
+  <script src="app.js"></script>
+</body>
+
+</html>
