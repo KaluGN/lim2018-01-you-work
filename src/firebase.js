@@ -1,10 +1,11 @@
+
 // Initialize Firebase
 var config = {
-  apiKey: "AIzaSyCZ04vTuzzAYoaEE59nJ9cTD_U2QoY_FhM",
-  authDomain: "you-work-kalu.firebaseapp.com",
-  databaseURL: "https://you-work-kalu.firebaseio.com",
-  projectId: "you-work-kalu",
-  storageBucket: "you-work-kalu.appspot.com",
-  messagingSenderId: "737582515467"
+  apiKey: "AIzaSyBhsgJlynw50FjjQ1EK9M7VFY2RoaGgiFE",
+  authDomain: "youwork-da3cd.firebaseapp.com",
+  databaseURL: "https://youwork-da3cd.firebaseio.com",
+  projectId: "youwork-da3cd",
+  storageBucket: "",
+  messagingSenderId: "328390235989"
 };
 firebase.initializeApp(config);
