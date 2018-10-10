@@ -5,3 +5,9 @@
     background-repeat: no-repeat;
     min-height: 100vh;
     }
+
+    .form1{
+        background-color: #1a1a1abb;
+        opacity: .8;
+        color: white; 
+    }

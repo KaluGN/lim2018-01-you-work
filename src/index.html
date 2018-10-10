@@ -8,14 +8,14 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="style.css">
-
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <title>You Work</title>
 </head>
 
 <body>
   <div class="container-fluid first-page">
-    <div class="container">
-      <div class="row">
+    <div class="container p-5">
+      <div class="row form1">
         <div class="col-6 offset-3">
           <form class="needs-validation" novalidate>
             <div class="form-row">
@@ -27,42 +27,42 @@
                 <label for="validarApellido">Apellido</label>
                 <input type="text" class="form-control" id="validarApellido" placeholder="Apellido" required>
               </div>
-              <div class="col-md-4 mb-3">
-                <label for="validationCustomUsername">Visita a:</label>
-                <div class="input-group">
-                  <div class="input-group-prepend">
-                    <span class="input-group-text" id="inputGroupPrepend">Empresa</span>
-                  </div>
-                  <input type="text" class="form-control" id="ingresarEmpresa" aria-describedby="inputGroupPrepend"
-                    required>
-                  <div class="invalid-feedback">
-                    Por favor escoge una empresa.
+              <div class="row">
+                <div class="col-md-12 mb-3">
+                  <label for="validationCustomUsername">Visita a:</label>
+                  <div class="input-group">
+                    <input type="text" class="form-control" id="ingresarEmpresa" aria-describedby="inputGroupPrepend"
+                      required>
+                    <div class="invalid-feedback">
+                      Por favor escoge una empresa.
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
 
-            <button class="btn btn-primary" id="btn_registrarVisita" type="button" data-toggle="modal" data-target="#exampleModalLong">Registrar
+            <button class="btn btn-primary btn-info btn-lg" id="btn_registrarVisita" type="button" data-toggle="modal"
+              data-target="#myModal">Registrar
               visita</button>
 
             <!-- Modal -->
-            <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
-              aria-hidden="true">
-              <div class="modal-dialog" role="document">
+            <div class="modal fade" id="myModal" role="dialog">
+              <div class="modal-dialog">
+
+                <!-- Modal content-->
                 <div class="modal-content">
                   <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                      <span aria-hidden="true">&times;</span>
-                    </button>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Registro correcto</h4>
                   </div>
                   <div class="modal-body">
-                    ...
+                    <p>¡Disfruta tu visita!</p>
                   </div>
                   <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                   </div>
                 </div>
+
               </div>
             </div>
 
@@ -84,8 +84,11 @@
     crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
     crossorigin="anonymous"></script>
+
   <script src="../css/bootstrap.min.css" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
     crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script src="app.js"></script>
 </body>
 
