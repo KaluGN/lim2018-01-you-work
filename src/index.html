@@ -7,13 +7,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" src="style.css">
+  <link rel="stylesheet" href="style.css">
 
   <title>You Work</title>
 </head>
 
 <body>
-  <div class="container-fluid firstPage">
+  <div class="container-fluid first-page">
     <div class="container">
       <div class="row">
         <div class="col-6 offset-3">
@@ -42,9 +42,31 @@
               </div>
             </div>
 
-            <p>Si eres administrador ingresa <a href="admin.html">aquí</a></p>
+            <button class="btn btn-primary" id="btn_registrarVisita" type="button" data-toggle="modal" data-target="#exampleModalLong">Registrar
+              visita</button>
 
-            <button class="btn btn-primary" id="btn_registrarVisita" type="submit">Registrar visita</button>
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+              aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    ...
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <p>Si eres administrador ingresa <a href="admin.html">aquí</a></p>
           </form>
 
         </div>
